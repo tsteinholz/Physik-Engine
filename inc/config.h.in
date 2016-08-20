@@ -32,11 +32,11 @@
 //                                                                            //
 //----------------------------------------------------------------------------//
 
-#ifndef PHYSIK_ENGINE_CONFIG
-#define PHYSIK_ENGINE_CONFIG
+#ifndef PHYSIK_ENGINE_CONFIG_H
+#define PHYSIK_ENGINE_CONFIG_H
 
 #define PHYSIK_ENGINE_VERSION_HAUPT   @PHYSIK_ENGINE_VERSION_HAUPT
 #define PHYSIK_ENGINE_VERSION_MOLL    @PHYSIK_ENGINE_VERSION_MOLL
 #define PHYSIK_ENGINE_VERSION_FLICKEN @PHYSIK_ENGINE_VERSION_FLICKEN
 
-#endif // PHYSIK_ENGINE_CONFIG
+#endif // PHYSIK_ENGINE_CONFIG_H
