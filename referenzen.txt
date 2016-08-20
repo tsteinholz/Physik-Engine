@@ -1,0 +1,15 @@
+https://en.wikipedia.org/wiki/Integrator
+https://en.wikipedia.org/wiki/Computational_physics
+https://en.wikipedia.org/wiki/Physics_engine
+https://github.com/AvtechScientific/ASL
+https://github.com/bulletphysics/bullet3
+https://github.com/slembcke/Chipmunk2D
+https://github.com/MADEAPPS/newton-dynamics
+https://en.wikipedia.org/wiki/Soft_body_dynamics
+https://en.wikipedia.org/wiki/Rigid_body_dynamics
+https://en.wikipedia.org/wiki/Procedural_animation
+https://en.wikipedia.org/wiki/Ragdoll_physics
+https://en.wikipedia.org/wiki/Game_physics
+https://en.wikipedia.org/wiki/Brownian_motion
+https://en.wikipedia.org/wiki/Constraint_programming
+http://cgi.csc.liv.ac.uk/~frans/OldLectures/2CS24/declarative.html#detail
