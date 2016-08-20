@@ -33,3 +33,12 @@
 //-----------------------------------------------------------------------------------------------//
 
 #include "2D/häufig/vektor2D.h"
+
+const vektor2d_t PHYSIK_EINHEITS_VEKTOR2D = { 1, 1 };
+
+const vektor2d_t PHYSIK_NULL_VEKTOR2D = { 0, 0 };
+
+const vektor2d_t PHYSIK_Y_VEKTOR2D = { 0, 1 };
+
+const vektor2d_t PHYSIK_X_VEKTOR2D = { 1, 0 };
+
