@@ -32,8 +32,8 @@
 //                                                                                               //
 //-----------------------------------------------------------------------------------------------//
 
-#ifndef PHYSIK_ENGINE_2D_VEKTOR_H
-#define PHYSIK_ENGINE_2D_VEKTOR_H
+#ifndef PHYSIK_ENGINE_HAUFIG_2D_VEKTOR_H
+#define PHYSIK_ENGINE_HAUFIG_2D_VEKTOR_H
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /// Eine Struktur 2D Vektor, der einen Koordinatenpunkt darstellt
@@ -101,7 +101,7 @@ void physik_skala_vektor2d(vektor2d_t *v, double skala);
 ///
 /// @return Die interpoliert Vektor.
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-vektor2d_t* physik_vektor2d_lerp(vecktor2d_t *v, vektor2d_t * ziel, double alpha);
+vektor2d_t* physik_vektor2d_lerp(vektor2d_t *v, vektor2d_t * ziel, double alpha);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /// Beschränken Sie einen Vektor zu einem Bereich.
@@ -113,4 +113,4 @@ vektor2d_t* physik_vektor2d_lerp(vecktor2d_t *v, vektor2d_t * ziel, double alpha
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 void physik_vektor2d_klemme(vektor2d_t *v, double min, double max);
 
-#endif // PHYSIK_ENGINE_2D_VEKTOR_H
+#endif // PHYSIK_ENGINE_HAUFIG_2D_VEKTOR_H

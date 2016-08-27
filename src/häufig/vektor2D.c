@@ -32,7 +32,7 @@
 //                                                                                               //
 //-----------------------------------------------------------------------------------------------//
 
-#include "2D/häufig/vektor2D.h"
+#include "häufig/vektor2D.h"
 
 const vektor2d_t PHYSIK_EINHEITS_VEKTOR2D = { 1, 1 };
 
