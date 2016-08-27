@@ -12,7 +12,7 @@ set(PHYSIK_ENGINE_INCLUDE
 )
 
 set(PHYSIK_ENIGINE_SOURCE
-    src/häufig/vektor2D.c
+    src/häufig/mathe/vektor2D.c
 )
 
 include_directories(${PHYSIK_ENGINE_INCLUDE})
