@@ -42,3 +42,35 @@ const vektor2d_t PHYSIK_Y_VEKTOR2D = { 0, 1 };
 
 const vektor2d_t PHYSIK_X_VEKTOR2D = { 1, 0 };
 
+void physik_vektor2d_hinzufugen(const vektor2d_t *a, const vektor2d_t *b, vektor2d_t* ergebnis)
+{
+    ergebnis->x = a->x + b->x;
+    ergebnis->y = a->y + b->y;
+}
+
+void physik_vektor2d_subtrahieren(const vektor2d_t *a, const vektor2d_t *b, vektor2d_t* ergebnis)
+{
+    ergebnis->x = a->x - b->x;
+    ergebnis->y = a->y - b->y;
+}
+
+double physik_vektor2d_entfernung(vektor2d_t *a, vektor2d_t *b)
+{
+    return (b->x - a->x)^2 + (b->y - a->x)^2;
+}
+
+void physik_skala_vektor2d(vektor2d_t *v, double skala)
+{
+    v->x *= skala;
+    v->y *= skala;
+}
+
+void physik_vektor2d_lerp(vektor2d_t *v, vektor2d_t * ziel, double alpha, vektor2d_t* ergebnis)
+{
+    // TODO
+}
+
+void physik_vektor2d_klemme(vektor2d_t *v, double min, double max)
+{
+    // TODO
+}

@@ -33,11 +33,19 @@
 //-----------------------------------------------------------------------------------------------//
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-/// @defgroup HÄUFIG
-/// Common Code für 2D- und 3D- pysics verwendet.
+/// @defgroup 2D
+/// 2D physik verwendet.
 ///
-/// @defgroup MATHE
-/// @ingroup HÄUFIG
-/// Mathematische Funktionen und definitons.
+/// @defgroup 3D
+/// 3D physik verwendet.
+///
+/// @defgroup MATHE2D
+/// @ingroup 2D
+/// 2D Mathematische Funktionen und definitons.
+///
+/// @defgroup MATHE3D
+/// @ingroup 3D
+/// 3D Mathematische Funktionen und definitons.
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+// TODO: fügen Sie alle gehören

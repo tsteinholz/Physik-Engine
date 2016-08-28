@@ -68,10 +68,9 @@ const extern vektor2d_t PHYSIK_X_VEKTOR2D;        ///< Die X sind ein und die X 
 ///
 /// @param[im] a - Ein Vektor.
 /// @param[im] b - Ein Vektor.
-///
-/// @return Die neu Summe Vektor.
+/// @param[out] ergebnis - das Ergebnis der Operation.
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-vektor2d_t* physik_vektor2d_hinzufugen(vektor2d_t *a, vektor2d_t *b);
+void physik_vektor2d_hinzufugen(const vektor2d_t *a, const vektor2d_t *b, vektor2d_t* ergebnis);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /// Subtrahieren zwei Vektoren.
@@ -79,10 +78,9 @@ vektor2d_t* physik_vektor2d_hinzufugen(vektor2d_t *a, vektor2d_t *b);
 ///
 /// @param[im] a - Ein Vektor.
 /// @param[im] b - Ein Vektor.
-///
-/// @return Die Differenz der beiden Vektoren.
+/// @param[out] ergebnis - das Ergebnis der Operation.
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-vektor2d_t* physik_vektor2d_subtrahieren(vektor2d_t *a, vektor2d_t *b);
+void physik_vektor2d_subtrahieren(const vektor2d_t *a, const vektor2d_t *b, vektor2d_t* ergebnis);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /// Findet sich der Abstand zwischen zwei Vektoren.
@@ -111,10 +109,9 @@ void physik_skala_vektor2d(vektor2d_t *v, double skala);
 /// @param[im/aus] v - Der Vektor interpoliert zu werden.
 /// @param[im] ziel - Der Vektor zur Interpolation mit.
 /// @param[im] alpha - Die Interpolant. [0-1]
-///
-/// @return Die interpoliert Vektor.
+/// @param[out] ergebnis - Die interpoliert Vektor.
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-vektor2d_t* physik_vektor2d_lerp(vektor2d_t *v, vektor2d_t * ziel, double alpha);
+void physik_vektor2d_lerp(vektor2d_t *v, vektor2d_t * ziel, double alpha, vektor2d_t* ergebnis);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /// Beschränken Sie einen Vektor zu einem Bereich.
