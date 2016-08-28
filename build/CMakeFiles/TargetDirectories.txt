@@ -1,0 +1,3 @@
+/home/tsteinholz/Development/OpenSource/Physik-Engine/build/CMakeFiles/edit_cache.dir
+/home/tsteinholz/Development/OpenSource/Physik-Engine/build/CMakeFiles/rebuild_cache.dir
+/home/tsteinholz/Development/OpenSource/Physik-Engine/build/CMakeFiles/Physik-Engine.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPhysik-Engine.a  CMakeFiles/Physik-Engine.dir/src/häufig/vektor2D.c.o
+/usr/bin/ranlib libPhysik-Engine.a

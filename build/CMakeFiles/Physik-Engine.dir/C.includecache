@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/häufig/vektor2D.h
+
+/home/tsteinholz/Development/OpenSource/Physik-Engine/src/häufig/vektor2D.c
+häufig/vektor2D.h
+/home/tsteinholz/Development/OpenSource/Physik-Engine/src/häufig/häufig/vektor2D.h
+
