@@ -56,7 +56,7 @@ void physik_vektor2d_subtrahieren(const vektor2d_t *a, const vektor2d_t *b, vekt
 
 double physik_vektor2d_entfernung(vektor2d_t *a, vektor2d_t *b)
 {
-    return (b->x - a->x)^2 + (b->y - a->x)^2;
+    return pow(b->x - a->x, 2) + pow(b->y - a->x, 2);
 }
 
 void physik_skala_vektor2d(vektor2d_t *v, double skala)
